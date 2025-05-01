@@ -5,3 +5,30 @@ pwd
 cd /
 cd var/www
 sudo chmod 777 html
+
+#####
+
+git clone https://github.com/SujalGupta52/SDITO-Lab.git
+git config --global user.email "deyanshuman208@gmail.com"
+git config --global user.name SiGmA-MaLe2004
+git init
+git add .
+git status
+git commit -m "done"
+$ git remote add origin https://github.com/SiGmA-MaLe2004/Anshuman-015.git
+git push -u origin master
+
+#####
+
+#!/bin/bash
+apt-get update
+apt-get install -y nginx
+systemctl start nginx
+systemctl enable nginx
+apt-get install -y git
+curl -SL https://deb.nodesource.com/setup_16.x|sudo -E bash -
+apt-get install -y nodejs
+git clone https://github.com/Aritra-Koley/Aritra_01.git
+cd Aritra_01
+npm install
+node index.js
